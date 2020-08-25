@@ -12,7 +12,7 @@ end
 
 def valid_move?(board, index)
   if index.between?(0,8)
-    if position_taken? == flase && board[index] != nil
+    if position_taken? == false && board[index] != nil
       true
     else 
       false
