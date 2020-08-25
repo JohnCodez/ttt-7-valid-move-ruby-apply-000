@@ -8,5 +8,11 @@ def position_taken?(board, index)
   else 
     true 
   end
-  
 end
+
+def valid_move?
+  if position_taken? == true 
+    
+  else 
+    
+  end
